@@ -96,6 +96,7 @@ export default function App() {
         handleAddProject={handleAddProject}
         projectArray={projectItems}
         handleClick={(event) => handleDisplayProject(event.target.innerHTML)}
+        selectedItem={displayProject}
       />
       <div className="hero">
         {displayForm && (
